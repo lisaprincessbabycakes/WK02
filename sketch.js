@@ -1,6 +1,24 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(500, 500);
 }
 
 function draw() {
+  background(255, 200, 255);
+  rect(290, 140, 100, 100);
+  rect(290, 30, 100, 100);
+
+  rect(20, 300, 50, 50);
+
+  line(100, 40, 300, 250);
+  line(100, 300, 300, 100);
+  circle(20, 50, 100);
+  circle(80, 300, 40);
+  quad(20, 20, 200, 30, 200, 70, 20, 70);
+  rect(200, 350, 50, -300);
+  rect(300, 300, 40, 90);
+  rect(20, 200, 30, 80);
+  quad(100, 100, 220, 75, 100, 200, 50, 200);
+  line (300,30,200,150)
+  triangle(40, 175, 20, 222, 226, 222);
+  
 }
